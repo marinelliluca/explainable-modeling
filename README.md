@@ -31,7 +31,7 @@ This study examines gender coding in sound and music, in a context where music p
   - Validation: Leave-one-out cross-validation
   - Tuning: Optuna for hyperparameters optimization
   - Feature selection: Recursive feature elimination with cross-validation (RFECV)
-    - for selected features see [here](https://github.com/marinelliluca/explainable-modeling/blob/b111fd6b7882a7701e58ca0c69cfc1753ee248df/data/selected_features.ipynb)
+    - for an analysis of the selected features run [this](https://github.com/marinelliluca/explainable-modeling/blob/b111fd6b7882a7701e58ca0c69cfc1753ee248df/data/selected_features.ipynb) notebook
 
 - **Model interpretation:**
   - SHAP for local explanation

@@ -23,7 +23,7 @@ This study examines gender coding in sound and music, in a context where music p
   - Reliability: Krippendorff's alpha level of .91 
 
 - **Feature Extraction:**
-  - Utilized MIRtoolbox for feature extraction (version 1.8.1)
+  - MIRtoolbox (version 1.8.1)
 
 - **Model Training and Evaluation:**
   - Employed XGBoost classifiers

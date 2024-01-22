@@ -39,10 +39,9 @@ print(f"https://www.youtube.com/watch?v={youtube_id}")
 
 - **Model Training and Evaluation:**
   - Employed XGBoost classifiers
-  - Settings: Girls vs boys-only, girls-only vs mixed audience, boys-only vs mixed audience
-  - Validation: Leave-one-out cross-validation
-  - Tuning: Optuna for hyperparameters optimization
-  - Feature selection: Recursive feature elimination with cross-validation (RFECV)
+  - Tasks: Girls vs boys-only, girls-only vs mixed audience, boys-only vs mixed audience
+  - Optuna for hyperparameters optimization
+  - Recursive feature elimination with cross-validation (RFECV)
     - for the intersection of the selecteted feature across tasks see [here](https://github.com/marinelliluca/explainable-modeling/blob/a36d9265648c7781e937aca1bfcb52df095b3c9e/data/temp.ipynb)
 
 - **Model interpretation:**

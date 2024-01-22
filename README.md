@@ -43,7 +43,7 @@ print(f"https://www.youtube.com/watch?v={youtube_id}")
   - Validation: Leave-one-out cross-validation
   - Tuning: Optuna for hyperparameters optimization
   - Feature selection: Recursive feature elimination with cross-validation (RFECV)
-    - for the intersection of the selecteted feature across tasks see [here](https://github.com/marinelliluca/explainable-modeling/blob/a36d9265648c7781e937aca1bfcb52df095b3c9e/data/temp.ipynb) notebook
+    - for the intersection of the selecteted feature across tasks see [here](https://github.com/marinelliluca/explainable-modeling/blob/a36d9265648c7781e937aca1bfcb52df095b3c9e/data/temp.ipynb)
 
 - **Model interpretation:**
   - SHAP for local explanation

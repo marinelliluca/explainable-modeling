@@ -22,6 +22,18 @@ This study examines gender coding in sound and music, in a context where music p
   - Commercial classification: Based on gender of actors/presenters and content analysis
   - Reliability: Krippendorff's alpha level of .91 
 
+To retrieve the videos use this:
+```python
+fn = f"data/features_mean_with_target.csv"
+df = pd.read_csv(fn, index_col="stimulus_id")
+
+youtube_id = df.sample(1).index[0]
+
+# some video might have been deleted by the owner
+print(f"https://www.youtube.com/watch?v={youtube_id}") 
+```
+
+
 - **Feature Extraction:**
   - MIRtoolbox (version 1.8.1)
 

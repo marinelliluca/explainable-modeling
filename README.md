@@ -24,8 +24,7 @@ This study examines gender coding in sound and music, in a context where music p
   - Source: Official YouTube channel of Smyths Toys Superstores
   - Selection criteria: High-quality videos intended for television
   - Preprocessing: Removal of duplicate videos and soundtracks trimmed (excluding last 5 seconds)
-  - Commercial classification: Based on gender of actors/presenters and content analysis
-  - Reliability: Krippendorff's alpha level of .91 
+  - Commercial classification: Based on gender of actors/presenters and content analysis (Krippendorff's alpha level of .91)
 
 Videos available on YouTube
 ```python
